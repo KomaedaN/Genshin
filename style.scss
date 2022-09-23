@@ -1,0 +1,19 @@
+.header{
+    color: red;
+}
+
+.card{
+    height: 300px;
+    &__grid{
+        border-style: solid;
+        margin: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+    }
+    &__artefact{
+        border-style: solid;
+        border-top: 0;
+        border-bottom: 0;
+    }
+}
