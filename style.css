@@ -1,19 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+body {
+  background-color: #afaaaa;
+}
+
 .header {
-  color: red;
+  color: #4c11c1;
+  font-family: "Abel", sans-serif;
+  text-align: center;
 }
 
 .card {
-  height: 300px;
+  font-family: "Abel", sans-serif;
+}
+.card__img {
+  justify-self: center;
 }
 .card__grid {
-  border-style: solid;
+  height: 300px;
   margin: 5rem;
+  background-color: #76ffc1;
+  border-style: solid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-content: center;
+  grid-template-columns: 0.4fr repeat(3, 0.7fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  border-radius: 1rem;
+  border-width: 2px;
 }
 .card__artefact {
   border-style: solid;
   border-top: 0;
   border-bottom: 0;
+  height: 300px;
+  text-align: center;
+  border-width: 2px;
+}
+.card__arme {
+  height: 300px;
+  text-align: center;
+}
+.card__skill {
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  height: 300px;
+  text-align: center;
+  border-width: 2px;
+}
+.card__list {
+  list-style: none;
+  text-align: left;
+  font-weight: bold;
+}
+.card__note {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.card__setskill {
+  text-align: left;
+  padding-left: 1rem;
+}
+.card__set {
+  margin: 0px;
+}
+.card__set_list {
+  margin: 0px;
+}
+.card__top {
+  padding-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
