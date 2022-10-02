@@ -10,10 +10,20 @@ body{
     text-align: center;
 }
 
+
+.hydro{
+    background-color: #6d9eeb !important;
+}
+
+.cryo{
+    background-color: #21f5ff !important;
+}
+
 .card{
     font-family: 'Abel', sans-serif;
     &__img{
         justify-self: center;
+        max-height: 300px;
     }
     &__grid{
         height: 300px;
@@ -52,10 +62,15 @@ body{
         list-style: none;
         text-align: left;
         font-weight: bold;
+        padding: 0;
+        margin-left: 1rem;
+        font-size: 1.05rem;
     }
     &__note{
         margin-left: 1rem;
         margin-right: 1rem;
+        text-align: left;
+        font-size: 1rem;
     }
     &__setskill{
         text-align: left;
@@ -69,5 +84,8 @@ body{
     }
     &__top{
         padding-top: 2rem;
+    }
+    &__list_li{
+        margin-top: 1rem;
     }
 }
